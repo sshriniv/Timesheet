@@ -1,0 +1,49 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+#page-wrapper {
+  position: relative;
+  width: 980px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 1000px;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+.heading.heading-1 {
+  width: 300px;
+  height: 42px;
+  position: absolute;
+  top: 42px;
+  left: 46px;
+}
+form select.select-1 {
+  width: 200px;
+}
+form {
+  width: 750px;
+  height: 490px;
+  position: absolute;
+  top: 98px;
+  left: 48px;
+}
+form .form-actions {
+  background-image: none;
+  background-color: transparent;
+  border: none;
+}
+.formlabel{
+width:100px;
+display:inline-block;
+vertical-align: middle;
+}
